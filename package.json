@@ -57,9 +57,9 @@
 		"tailwindcss": "^4.3.3",
 		"vite": "^8.2.2",
 		"vite-plugin-singlefile": "^2.3.3",
-		"@1sat/actions": "^0.0.208",
-		"@1sat/client": "0.0.51",
-		"@1sat/wallet-node": "0.0.73",
+		"@1sat/actions": "^0.0.221",
+		"@1sat/client": "0.0.55",
+		"@1sat/wallet-node": "0.0.77",
 		"@bsv/sdk": "^2.4.2",
 		"@bsv/wallet-toolbox": "npm:@bopen-io/wallet-toolbox@2.6.2-brc153.5",
 		"@modelcontextprotocol/client": "2.0.0",
@@ -96,7 +96,7 @@
 		"tools:manifest": "bun run ./scripts/generate-tool-manifest.ts"
 	},
 	"patchedDependencies": {
-		"@1sat/wallet@0.0.106": "patches/@1sat%2Fwallet@0.0.106.patch",
-		"@1sat/wallet-node@0.0.73": "patches/@1sat%2Fwallet-node@0.0.73.patch"
+		"@1sat/wallet@0.0.110": "patches/@1sat%2Fwallet@0.0.110.patch",
+		"@1sat/wallet-node@0.0.77": "patches/@1sat%2Fwallet-node@0.0.77.patch"
 	}
 }
